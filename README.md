@@ -50,6 +50,6 @@ var data = Buffer.from('...');
 microblue.write(data); //data is a Buffer
 ```
 
-
+<a href="https://www.listic.univ-smb.fr/en/home/" target="_blank"><img src="assets/logo_listic.png"></a>
 
 ##### ![listic](assets/logo_listic.png)
