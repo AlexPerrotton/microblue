@@ -2,7 +2,7 @@
   "name": "microblue",
   "version": "0.0.4",
   "description": "An easy solution to communicate with your micro:bit by bluetooth ",
-  "main": "./lib/microblue.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
