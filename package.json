@@ -1,6 +1,6 @@
 {
   "name": "microblue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy solution to communicate with your micro:bit by bluetooth ",
   "main": "./microblue/microblue.js",
   "directories": {
