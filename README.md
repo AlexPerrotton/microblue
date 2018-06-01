@@ -12,7 +12,12 @@ This library is in the early stages so things might change and break. Apologies 
 
 It is necessary to paire your device (PC/raspberry/mobile) to the micro:bit without connect it.
 
-### Ubuntu/Debian/Raspbian
+### Linux
+
+..* Kernel version 3.6 or above
+..* ```sh libbluetooth-dev```
+
+#### Ubuntu/Debian/Raspbian
 
 ```sh
 sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
