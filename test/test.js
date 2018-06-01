@@ -1,4 +1,4 @@
-var microblue = require('../microblue/microblue.js');
+var microblue = require('../lib/microblue.js');
 
 console.log('microblue');
 
