@@ -1,6 +1,6 @@
 {
   "name": "microblue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy solution to communicate with your micro:bit by bluetooth ",
   "main": "./microblue/microblue.js",
   "directories": {
@@ -23,7 +23,8 @@
   "bugs": {
     "url": "https://github.com/AlexPerrotton/microblue/issues"
   },
-  "Dependencies":{
+  "homepage": "https://github.com/AlexPerrotton/microblue",
+  "dependencies":{
     "noble": "1.9.1"
   }
 }
