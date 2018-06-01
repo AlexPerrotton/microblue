@@ -30,7 +30,7 @@ bluetoothctl
 scan on
 ```
 
-went your micro:bit is discover
+Went your micro:bit is discover
 
 ```sh
 scan off
@@ -79,10 +79,10 @@ microblue.write(data); //data is a Buffer
 
 ### To Do
 
-- [x] Create function to Read/Write (Uart)
-- [ ] Create function to Read data from accelerometer
-- [ ] Create function to Read data from magnetometer
-- [ ] Create function to Read input from the buttons
-- [ ] Create function to Read/Write input from the IO pins
-- [ ] Create function to Read/Write on the LED matrix
-- [ ] Create function to Read temperature
+- ~~Create function to Read/Write (Uart)~~
+- Create function to Read data from accelerometer
+- Create function to Read data from magnetometer
+- Create function to Read input from the buttons
+- Create function to Read/Write input from the IO pins
+- Create function to Read/Write on the LED matrix
+- Create function to Read temperature
