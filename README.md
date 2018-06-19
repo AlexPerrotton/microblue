@@ -65,18 +65,36 @@ var microblue = require('microblue');
 microblue.connect(callback());
 ```
 
-#### Read 
+#### Uart
+
+##### Read
 
 ```javascript
 microblue.read(callback(data));
 ```
 
-#### Write
+##### Write
 
 ```javascript
 var data = Buffer.from('...');
 
 microblue.write(data); //data is a Buffer
+```
+
+#### Accelerometer
+
+##### Read
+
+```javascript
+microblue.accelerometer(callback(data)); //data is a JSON which contains measurements for X, Y and Z axes
+```
+
+#### Magnetometer
+
+##### Read
+
+```javascript
+microblue.compass(callback(data)); //data is a JSON which contains measurements for X, Y and Z axes
 ```
 
 ### Create at
@@ -85,8 +103,8 @@ microblue.write(data); //data is a Buffer
 ### To Do
 
 - ~~Create function to Read/Write (Uart)~~
-- Create function to Read data from accelerometer
-- Create function to Read data from magnetometer
+- ~~Create function to Read data from accelerometer~~
+- ~~Create function to Read data from magnetometer~~
 - Create function to Read input from the buttons
 - Create function to Read/Write input from the IO pins
 - Create function to Read/Write on the LED matrix
