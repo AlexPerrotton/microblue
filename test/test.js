@@ -1,12 +1,19 @@
-var microblue = require('../lib/microblue.js');
+ar microblue = require('../lib/microblue.js');
 
-console.log('microblue');
+console.log('--- microblue ---');
 
-var buffer = Buffer.from('test');
 microblue.connect(function(){
-	microblue.write(buffer);
 
-	microblue.read(function(data){
-		console.log(data);
-	});
+microblue.read(function(data){});
+var interval = setInterval(function(){
+        microblue.accelerometer(function(data){
+                console.log('accel = ' + JSON.stringify(data));
+        });
+        microblue.compass(function(data){
+                console.log('compass = ' + JSON.stringify(data));
+        });
+
+}, 1000);
+
 });
+
